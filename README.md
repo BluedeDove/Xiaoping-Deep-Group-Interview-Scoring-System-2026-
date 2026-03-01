@@ -23,7 +23,7 @@ S_{\text{final}} = \left[ \sum_{i=1}^{4} \left( \sum_{d \in D} s_{i,d} \right) \
 $$
 
 其中：
-- $s_{i,d}$ = 第 $i$ 层级第 $d$ 维度的得分（$D = \{\text{代码}, \text{架构}, \text{数理}, \text{可视化}\}$）
+- $s_{i,d}$ = 第 $i$ 层级第 $d$ 维度的得分
 - $w_i$ = 第 $i$ 层级的难度权重
 - $\gamma_{\text{AI}}$ = AI 审计系数
 
