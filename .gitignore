@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+*.manifest
+*.exe
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific - 保留源代码，排除生成的可执行文件和临时文件
+# dist/ 目录下的 exe 不需要提交（可自行打包）
+dist/
+# 但保留 dist/ 目录结构说明（如果有其他需要分发的文件）
+
+# Logs
+*.log
+
+# Local config
+.env
+.env.local
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
